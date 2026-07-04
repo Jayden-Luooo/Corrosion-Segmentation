@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+
+# Virtual environments
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/
+
+# Model weights and large training artifacts
+*.pth
+outputs/checkpoints/
+outputs/**/checkpoints/
+outputs/**/logs/
+
+# Archives are downloadable only; commit individual PNG/JPG figures for README previews.
+*.zip
