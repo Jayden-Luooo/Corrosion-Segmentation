@@ -38,6 +38,17 @@ data/
 
 Result figures are stored under `figures/` so GitHub can render them directly in this README.
 
+### Quantitative Results
+
+The ResNet34-UNet achieved better validation performance than the baseline U-Net across all evaluated segmentation metrics.
+
+| Model | Dice | IoU | Recall | Precision |
+| --- | ---: | ---: | ---: | ---: |
+| U-Net | 0.707 | 0.567 | 0.737 | 0.725 |
+| ResNet34-UNet | **0.794** | **0.681** | **0.809** | **0.810** |
+
+Compared with the baseline U-Net, the ImageNet-pretrained ResNet34-UNet improved Dice by 0.087 and IoU by 0.114 on the validation set.
+
 ### Model Comparison
 
 <img src="figures/best_models_comparison.png" alt="Best Models Comparison" width="720">
