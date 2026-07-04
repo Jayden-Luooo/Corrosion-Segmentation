@@ -1,0 +1,2 @@
+# Do not count the notebook as source code in GitHub language statistics
+*.ipynb linguist-vendored
