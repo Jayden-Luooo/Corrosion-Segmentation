@@ -79,6 +79,7 @@ Compared with the baseline U-Net, the ImageNet-pretrained ResNet34-UNet improved
 |-- requirements.txt
 |-- README.md
 |-- .gitignore
+├── .gitattributes
 |-- src/
 |   |-- dataset.py
 |   |-- models.py
